@@ -17,7 +17,7 @@ order_quantity = input('Tedad orderha: ')
 order_quantity = int(order_quantity)
 delay = int(delay)/1000
 
-driver = webdriver.Chrome(executable_path='D:\Projects\chromedriver.exe')
+driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get('https://www.nahayatnegar.com/online')
 
@@ -42,10 +42,10 @@ except:
     
 time.sleep(10)
 
-# WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, "/html/body/div[3]/div/div[3]/div[1]/div/div/div[2]/div/div/div[1]/div[2]/div[1]/table/tbody/tr[1]"))).click()
-# time.sleep(2)
-# driver.find_element(By.XPATH, '/html/body/div[3]/div/div[3]/div[1]/div/div/div[2]/div/div/div[1]/div[2]/div[1]/table/tbody/tr[1]')
-# time.sleep(2)
+WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, "/html/body/div[3]/div/div[3]/div[1]/div/div/div[2]/div/div/div[1]/div[2]/div[1]/table/tbody/tr[1]"))).click()
+time.sleep(2)
+driver.find_element(By.XPATH, '/html/body/div[3]/div/div[3]/div[1]/div/div/div[2]/div/div/div[1]/div[2]/div[1]/table/tbody/tr[1]')
+time.sleep(2)
 
 # Enter to Info Tab
 WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, "/html/body/div[3]/div/div[4]/div/div[1]/div/div[2]/div[1]/div[1]/div/div/div[2]/div[1]"))).click()
