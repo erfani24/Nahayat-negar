@@ -21,7 +21,7 @@ order_quantity = input('Tedad orderha: ')
 order_quantity = int(order_quantity)
 delay = int(delay)/1000
 
-driver = webdriver.Chrome(executable_path='D:\Projects\chromedriver.exe')
+driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get('https://www.nahayatnegar.com/online')
 
