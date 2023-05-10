@@ -4,6 +4,7 @@
 + [دانلود کروم 113](https://share724.com/user2/1402/Internet/Google.Chrome.113.0.5672.64.x64.rar)
 + رمز فایل : www.p30world.com
 + اینترنت با سرعت خوب.
+
 **آموزش:**
 - ابتدا وارد پنل کارگزاری شده و یک دیده بان با عنوان "سرخطی"  ایجاد کنید و نمادی که قصد ارسال سفارش برای آن را دارید به دیده بان اضافه کنید.
 + ![dideban](https://github.com/erfani24/Nahayat-negar/blob/main/Capture.PNG)
